@@ -1,13 +1,12 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+node_modules
 
 # yarn
 .yarn/*
 !.yarn/releases
 !.yarn/plugins
 !.yarn/sdks
-/.pnp
-.pnp.js
 
 # 캐시와 임시 파일 제외
 .yarn/cache
