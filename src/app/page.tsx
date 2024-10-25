@@ -8,6 +8,9 @@ export default function Home() {
     <main>
       <button onClick={() => router.push("/jest")}>jest</button>
       <button onClick={() => router.push("/datefns")}>date fns</button>
+      <button onClick={() => router.push("/reacthookforms")}>
+        react hook form
+      </button>
     </main>
   );
 }
